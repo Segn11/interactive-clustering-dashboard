@@ -131,5 +131,4 @@ def serve_metrics(trimmed=True, k=2):
     ]
 
 # 🌐 Run the app in a hosted environment (e.g., DataCamp or Jupyter)
-public_url = f"https://{os.environ['DW_CONTAINER_NAME']}-9000.{os.environ['DW_CONTAINER_HOST_NAME']}/"
-app.run_server(host="0.0.0.0", port=9000, jupyter_server_url=public_url)
+
